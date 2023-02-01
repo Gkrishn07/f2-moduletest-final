@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-Module-Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <img id="img1" src="/images.png" alt="img1">
+        <img id="img2" src="/log.jpg" alt="img2">
+        <img id="img3" src="/dice.jpg" alt="img3">
+        <img id="img4" src="/coupon.jpg" alt="img4">
+    </div>
+    <div id="form" class="frm">
+        <form>
+            <input type="text" id="name" placeholder="Name" class="box" required>
+            <input type="email" id="email" placeholder="Email" class="box" required>
+            <input type="text" id="username" placeholder="Username" class="box" required>
+            <button id="btn" type="submit" required>Submit</button>
+        </form>
+    </div>
+    <div id="user-info" class="user">
+        <p>Name: <span id="display-name"></span></p>
+        <p>Username: <span id="display-username"></span></p>
+    </div>
+    <div id="dice" class="dce">
+        <img src="/dice1.jpg" alt="">
+        <p id="result" class="score"></p>
+    </div>
+    <div id="coupon" class="cpn">
+        <p><b>Coupon:</b> <span id="display-coupon"></span></p>
+    </div>
+    <div id="congrats" class="cng">
+        <img class="congrats-img" src="/congrats.jpg" alt="Congratulations">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
